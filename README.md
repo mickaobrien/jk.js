@@ -1,6 +1,8 @@
 # jk.js
 jk.js is a JavaScript library to add Vim-style navigation to your site. It allows users to navigate through  selected DOM elements on your page using `j` to move down, `k` to move up and `o` or `Enter` to "open".
 
+[Demo](http://www.mick.mx/).
+
 ## Getting started
 
 1. Include jk.js on your page before the closing `</body>` tag:
