@@ -20,7 +20,7 @@ jk.js is a JavaScript library to add Vim-style navigation to your site. It allow
   </script> 
   ```
 The `options` object has three keys:
-  * `elements`: a CSS selector passed to `querySelectorAll` to list the elements you want to scroll through e.g. `'div.article'`.
+  * `elements`: a CSS selector passed to `querySelectorAll` to select the elements you want to scroll through e.g. `'div.article'`.
   * `activeClass`: the class name added to the currently selected element. This allows you to style the selected element. 
   **Defaults to**: `'active'`.
   * `action`: a function that's called when `o` or `Enter` are pressed. The currently selected DOM element is passed as a parameter. **Defaults to:** 
