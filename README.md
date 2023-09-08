@@ -13,10 +13,11 @@ jk.js is a JavaScript library to add Vim-style navigation to your site. It allow
 2. Initialise it with an `options` object:
   ```html
   <script>
-    jk.init({elements: '.article', 
-             activeClass: 'current', 
-             action: function(element) { element.click(); }
-            });
+    jk.init({
+      elements: '.article', 
+      activeClass: 'current', 
+      action: function(element) { element.click(); }
+    });
   </script> 
   ```
 The `options` object has three keys:
